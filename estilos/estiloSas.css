@@ -1,0 +1,69 @@
+.efecto {
+  height: 200px;
+}
+.efecto:hover {
+  height: 400px;
+}
+
+.ofertas {
+  background-image: linear-gradient(to left, red, yellow);
+  font-weight: bold;
+  font-size: 20px;
+  transition: height 2s;
+}
+.ofertas:hover {
+  background-image: linear-gradient(to left, red, white);
+  font-size: 40px;
+}
+
+.descuento {
+  color: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+.descuento__Detalle {
+  color: red;
+  font-size: 25px;
+}
+
+.visita__Detalle {
+  font-size: 12px;
+}
+
+
+
+.contacto__Detalle {
+  font-size: 12px;
+}
+
+.pedido__Detalle {
+  font-size: 12px;
+}
+
+.comentario__Detalle {
+  font-size: 12px;
+}
+
+.visita {
+  color: blue;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.contacto {
+  color: blue;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.pedido {
+  color: blue;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.comentario {
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+}

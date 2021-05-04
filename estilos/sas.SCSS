@@ -1,0 +1,75 @@
+$fontsize_oferta: 20px;
+$fontsize_descuento: 20px;
+$height_efecto: 200px;
+ 
+
+.efecto {
+  height:$height_efecto;
+  &:hover{
+    height:$height_efecto * 2;
+  }
+}
+
+.ofertas {
+  background-image: linear-gradient(to left, red , yellow);
+  font-weight: bold;
+  font-size: $fontsize_oferta;
+  transition: height 2s;
+
+  &:hover{
+    background-image: linear-gradient(to left, red ,white);
+    font-size: $fontsize_oferta * 2 ;
+  }
+ }
+
+ .descuento {
+ color:green($color: #000000);
+ font-weight: bold;
+  font-size: $fontsize_descuento;   
+    &__Detalle{
+        color:red;
+        font-size: $fontsize_descuento + 5;
+    }
+ }
+
+
+ $fontsize_detalle: 12px;
+ @each $item in visita,contacto, pedido,comentario {
+  .#{$item}__Detalle { 
+    font-size: $fontsize_detalle;
+   }
+}  
+
+
+ .visita {
+  color:blue;
+  font-weight: bold;
+   font-size: 15px;   
+   
+  }
+ 
+
+  .contacto {
+    color:blue;
+    font-weight: bold;
+     font-size: 10px;   
+      
+    }
+
+    .pedido {
+      color:blue;
+      font-weight: bold;
+       font-size: 10px;   
+        
+      }
+
+ 
+      .comentario {
+        color:black;
+        font-weight: bold;
+         font-size: 12px;   
+          
+        }
+
+
+      
