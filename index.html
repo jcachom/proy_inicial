@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,166 +16,255 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
  
 
+
 </head>
+
+
 <body>
 
-    <div class="grid">
+  
 
-            <header>            
+  
+
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <!-- logo -->
+    <a class="navbar-brand" href="#">
+      <img src="imagen/logo.png"  alt="">
+    </a>
+    
+    <!-- enlaces -->
+    <div class="collapse navbar-collapse" id="opciones">   
+      <ul id="ulMenu" class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#nosotros">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#productos">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pedido.html">Pedidos</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">Contacto</a>
+        </li>                
+      </ul>
+    </div>
+  </nav>
+
+
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="imagen/cuy_01.jpg" alt="First slide">
+        <div class="carousel-caption d-md-block">
+              <p class="headerCaption_2">
+                  Llevamos bienestar
+              </p>
+               
+        </div>
+
+      </div>
+    
+      <div class="carousel-item">
+        <img class="d-block w-100" src="imagen/cuy_02.jpg" alt="Third slide">
+        <div class="carousel-caption d-md-block">
+            <p class="headerCaption_2">
+                Lugares higiénicos
+            </p>
              
-                    <div  class="derecha">
-                            <img src="imagen/carros.png" alt="Carrito"  height="30px"    >
-                            <img src="imagen/account.png" alt="Mi cuenta"  height="30px"   >
-                            <label for="cuenta"  class="derecha" > 
-                             
-                            </label> 
-                     </div>
-                         <div class="padreNavFlex">
-                             <div>
-                                <img src="imagen/logo.png" alt="Logo"  height="25px"   >
-                             </div>
-                             <div>
-                                <input type="search" name="idBusqueda" placeholder="Buscar producto" >
-                                <input type="submit" value="Buscar">
-                            </div>         
-                         </div>
+        </div>
+      </div>
 
-                        <div>
-                                <img src="imagen/baner.png" alt="" height="150px"  width="100%"   >
-                        </div>
-                        
+      <div class="carousel-item">
+        <img class="d-block w-100" src="imagen/cuy_03.jpg" alt="Third slide">
 
-            </header>
+        <div class="carousel-caption d-md-block">
+
+            <p class="headerCaption_1">
+                Llevamos el pedido hasta tu hogar
+            </p>
+
              
-            
+        </div>
 
-            <nav class ="navbar">
-
-          <div class="container-fluid bcontent">
-
-             <ul class ="navbar-nav">
-                <li class ="nav-item">
-                <a  href="index.html"> Inicio </a>
-                </li>
-                <li class ="nav-item">
-                <a href="vistas/electroHogar.html"> Electro Hogar </a>
-                </li>
-                <li class ="nav-item">
-                <a  href="vistas/construccion.html"> Construcción </a>
-                </li>
-                <li class ="nav-item">
-                <a  href="vistas/serviciosHogar.html"> Servicios Hogar </a>
-                </li>
-
-                <li class ="nav-item">
-                        <a  href="vistas/contacto.html"> Contactos </a>
-                        </li>
-
-                </ul>
-       
-                        </div>
-                
-           </nav>
-
-
- 
-            <section id="masVendidos">
-                <div class="ofertas">
-                        <H1>
-                        LAS OFERTAS DEL MES
-                        </H1>
-                 
-                     
-                </div>
-                  <div class="descuento">
-                        Los más grandes descuentos a precios de locura(2021).
-                        <div class="descuento__Detalle">
-                          Es ahora o nunca , para aprovechar!!!
-                        </div>
-
-                  </div>
-                <div class="padreFlex">
-                   <div>                              
-                            <img src="imagen/destacadoPromocion01.png" alt="img01"    class="efecto" >
-                            <img src="imagen/destacadoPromocion02.png" alt="img02"   class="efecto">                           
-                        </div>                       
-                        <div>
-                            <img src="imagen/destacadoPromocion03.png" alt=""  class="efecto">
-                            <img src="imagen/destacadoPromocion04.png" alt=""  class="efecto">
-                        </div>                        
-                        <div>
-                                <img src="imagen/destacadoPromocion05.png" alt=""  class="efecto">
-                                <img src="imagen/destacadoPromocion06.png" alt=""  class="efecto">
-                        </div>
-                             
-                    </div>
-            </section>
-
-            <section id="servicios">           
-                  
-                      
-            </section>
-
-                                
-            <footer>                    
-                        
-                <div class="visita">
-                  Venga y visítenos en nuestros diferentes locales a nivel nacional.
-                   <div class="visita__Detalle">
-                   Locales : Lima , Huancayo , Puno , Piura , Piura , Arequipa
-                 </div>
-                
-                </div>
-
-                 <div class="contacto">
-                    Puede contactarse a:
-                    <div class="contacto__Detalle">
-                         <ol>
-                                <li>sede principal</li>                                              
-                                <li>Oficinas</li>
-                         </ol>
-                    </div>
-                 </div>
-
-
-                 <div class="pedido">    
-                        También pueden hacer sus pedidos por :                      
-                        <div class="pedido__Detalle">
-                                   <ol>
-                                        <li>Facebook</li>                                              
-                                        <li>Instagram</li>
-                                    </ol>
-                        </div>
-                 </div>
-
-
-                 <div class="comentario">    
-                                Nos puede asimismo comentar:                      
-                                <div class="comentario__Detalle">
-                                        
-                                   <textarea name="comentarios" placeholder="Comentarios" class="form-control"></textarea>
-                                 </div>
-                                 <p></p>
-                                 <div   class="btn-group" >
-                                   <input type="submit" value="Enviar" class="btn btn-primary"/>                                            
-                                           </div>
-                                </div>
-               </div>
-
-                
-                <div>
-                        <img src="imagen/iconoFacebook.png" alt=""  height="30px" height="30px" >
-                        <img src="imagen/iconoInstagram.png" alt="" height="30px" height="30px"   >
-                        <img src="imagen/iconoTweet.png" alt="" height="30px" height="30px"  >
-                   </div>
-                    <div class="footer">
-                            Todos los derechos reservados 2021
-                    </div>
-
-            </footer>
+      </div>
 
     </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">  </span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">  </span>
+    </a>
+  </div>
+
+ 
    
+  <div class="grid"> 
+    <section id="nosotros">
+  
+  
+    <div class="row">
+        
+        <div class="col-lg-6 col-md-4 col-sm-6 col-xs-12">
+          
+          <h1 class="ptitulo">
+            Nuestra empresa
+          </h1>  
+                
+          DON RICO es una empresa 100% peruana, dedicada a la venta de cuyes , con más de una década presentes en el mercado local.
+          Somos una granja en la industria que ofrece los mejores productos para una nutrición saludable que potencia tu vida diaria.
+            
+        </div>
+
+        <div class="col-lg-6 col-md-8 col-sm-6 col-xs-12"  >       
+          <img src="imagen/cuy_cusco.jpg" alt="" class="img-fluid img-thumbnail"  max-width="100%" height="auto"  >           
+        </div>
+
+     
+
+    </div>
+
+
+            
+        
+    </section>
+ 
+  
+    <section id="productos">
+  
+      <h1 class="ptitulo" >Productos</h1>    
+      <p>
+        Som muchos los platos que puedes preparar , te mencionamos algunos:   
+      </p>
+
+      <div class="padreFlex">  
+             
+       <div class="divProductos"   >
+
+      <div class="product_img">       
+        <p class="psubtitulo">
+            Cuy con Maní
+        </p>
+        <img src="imagen/cuy_mani.jpg" alt=""  class="img-fluid img-thumbnail"      >
+
+    </div>
+
+    <div class="product_img" >         
+          <p class="psubtitulo">
+              Cuy Chactado 
+          </p>
+          <img src="imagen/cuy_chactado.jpg" alt=""   class="img-fluid img-thumbnail"  max-width="100%" height="auto"   >
+
+    </div>
+    
+    <div class="product_img">           
+            <p class="psubtitulo">
+                Cuy picante
+            </p>
+            <img src="imagen/cuy_picante.jpg" alt="" class="img-fluid img-thumbnail"  max-width="100%" height="auto"     >
+
+   
+    </div>
+        
+       </div>
+
+    <div class="divProductos">
+  
+    <div class="product_img">        
+        <p class="psubtitulo">
+            Cuy asado
+        </p>
+        <img src="imagen/cuy_asado.jpg" alt=""  class="img-fluid img-thumbnail"      >
+
+    </div>
+
+    <div class="product_img">         
+          <p class="psubtitulo">
+              Cuy horno 
+          </p>
+          <img src="imagen/cuy_horno.jpg" alt=""   class="img-fluid img-thumbnail"  max-width="100%" height="auto"   >
+
+    </div>
+    
+    <div class="product_img">           
+            <p class="psubtitulo">
+                Cuy guisado
+            </p>
+            <img src="imagen/cuy_arroz.jpg" alt="" class="img-fluid img-thumbnail"  max-width="100%" height="auto"     >
+
+   
+    </div>
+       
+  </div>
+
+  </div>
+
+        
+  
+  
+    </section>
+          
+    <footer>                    
+                          
+            
+                 <div class="footer_sec1">
+                  
+                  <img src="imagen/mapa.png" alt="" class="footer_img"    >
+                  <label   for="nombre" class="col-lg-4 control-label" >Av. Alameda 265</label>	
+                  
+                  <img src="imagen/phone.png" alt="" class="footer_img"     >
+                  <label   for="nombre" class="col-lg-4 control-label" >01-235487</label>	
+  
+                 
+                 </div>
+
+                 
+                 <div class="footer_sec2">
+
+                  <img src="imagen/facebook.png" alt=""  class="footer_img"     >                                      
+                  <img src="imagen/instagram.png" alt="" class="footer_img"    >                  
+                  <img src="imagen/twitter.png" alt="" class="footer_img"   >  
+                  <p>
+                    Todos los derechos reservados 2021
+                  </p>             
+                  
+                </div>
+
+                
+  
+  
+             
+  
+                      
+                      
+                 
+                   
+  
+  
+                 </div>
+  
+    </footer>
+  
+      </div>
+
+ 
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
